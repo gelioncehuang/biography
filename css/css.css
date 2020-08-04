@@ -1,0 +1,371 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*個人履歷*/
+/* layout*/
+.wrap{
+    margin: 0 auto;
+    width: 1025px;
+    font-family: "微軟正黑體";
+    box-sizing:border-box;
+    background-color: #fafafa;
+}
+.inf{
+    background: url(https://upload.cc/i1/2020/07/27/Fr1cwa.png);
+    display: flex;
+    height: 399px;
+}
+.pic{
+    padding-top:100px;
+    padding-left: 70px;
+    
+}
+.pic img{
+    margin-bottom: 10px;
+    width: 150px;
+    border-radius: 50%;
+}
+.pic h1{
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.pic p {
+    font-size: 25px;
+    padding-left: 20px;
+    color: #5b5b5b;
+}
+
+
+.inf ul{
+    color: #ffffff;
+    margin-top: 145px;
+    margin-left: 50px;
+    
+}
+.inf .personal1{
+    margin-right: 50px;
+}
+.inf ul li{
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+/* layout*/
+h2{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    color: #1736dc;
+}
+
+.colorword{
+    color: #fb56bf;
+}
+.skill {
+    display: flex;
+    justify-content:space-around;
+    max-width: 1025px;
+    margin-bottom: 50px;
+
+}
+.skill .box1,.box2,.box3,.box4 {
+    border: 2px solid 	#eaeaea;
+    background-color: #ffffff;
+    border-radius: 5%;
+    padding:20px 5px;
+    width: 225px;
+}
+.skill .box1{
+    border-bottom: 10px solid #f58d23;
+}
+.skill .box1 img{
+    width: 100px;
+    margin-left: 60px;
+}
+.skill .box2{
+    border-bottom: 10px solid #539e43;
+}
+.skill .box2 img{
+    width: 100px;
+    margin-left: 60px;
+}
+.skill .box3{
+    border-bottom: 10px solid #6762a6;
+}
+.skill .box3 img{
+    width: 100px;
+    margin-left:60px;
+}
+.skill .box4{
+    border-bottom: 10px solid #FF0000;
+}
+.skill .box4 img{
+    width: 150px;
+    margin-left: 40px;
+}
+
+
+.skill h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #4a4a4a;
+    font-size: 25px;
+}
+.skill .content li{
+    padding-top: 5px;
+    margin-left: 40px;
+    list-style-type: disc;
+
+
+}
+.works{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    
+}
+
+.exp-start{
+    margin-left:487px;
+    height: 5px;
+    width: 2px;
+}
+.exp-line{
+    margin-left: 500px;
+    height: 800px;
+    width: 2px;
+    border:2px solid #d8d8d8;
+    background-color: #d8d8d8;
+    position: relative;
+    z-index: 1;
+}
+
+.exp-right1{
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    left: -10px;
+    top: 100px;
+}
+.exp-right2{
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    top: 650px;
+    left: -10px;
+}
+
+.exp-left{
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    top: 370px;
+    left: -10px;    
+}
+
+
+.exp-block{
+    width:300px;
+    margin-left: 60px;
+    position: absolute;
+    z-index: 3;
+    bottom: -40px;
+    border: 2px solid #fb56bf;
+    border-radius: 10px;
+    padding: 10px;
+}
+.exp-block:hover{
+    border: 2px solid yellow;
+    background-color: #7373B9;
+    cursor: pointer;
+}
+.exp-block h4{
+    margin-bottom: 5px;
+    font-size: 25px;
+    color: #942c48;
+    font-weight: bold;
+}
+.exp-block p {
+    margin-bottom: 5px;
+    line-height: 30px;
+}
+.exp-block .time{
+    color: #4a4a4a;
+    font-weight: bold;    
+}
+.exp-block .company{
+    color: #6c6c6c;
+    font-size: 20px;
+    font-weight: bold;
+}
+.exp-block .job{
+    color:#3C3C3C;
+    font-size: 18px;
+}
+
+.exp-end{
+    width: 47px;
+    border:2px solid #d8d8d8;
+    background-color: black;
+    position: relative;
+    z-index:3;
+    top: 0px;
+    left:477px;
+}
+
+.works li {
+    width: 330px;
+    background-color: #ffffff;
+    border-radius: 5%;
+    margin-left: 10px;
+    margin-right:10px;
+    overflow: hidden;
+}
+.works li:hover{
+    box-shadow: 1px 1px 1px 4px yellow;
+}
+.works .pic1 img{
+    margin-left: 15px;
+    width: 100px;
+    height: 100px;
+}
+.works .pic1 {
+    background-color: #bd0328;
+    border-bottom: 5px solid #FF2D2D;
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:95px;
+    overflow: hidden;  
+}
+.works .pic2 img{
+    width: 200px;
+}
+
+.works .pic2{
+    background-color: #8E8E8E;
+    border-bottom: 5px solid #BEBEBE;
+    height: 100px;
+    padding-top: 40px;
+    padding-left:70px;
+}
+.works .pic3 img{
+    width: 75px;
+    margin-left: 120px;
+}
+
+.works .pic3{
+    background-color:#FFFFFF;
+    border-bottom: 5px solid #FCFCFC;
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;   
+}
+.works li a{
+    text-decoration: none;
+}
+.works li p {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom:10px;
+    color: #4a4a4a;
+    font-size: 20px;
+}
+.works li .tittle{
+    color: #000000;
+    font-weight: bold;
+
+}
+.autobiography{
+    margin-bottom: 15px;
+    padding-left:30px;
+}
+.autobiography p {
+    margin-top: 30px;
+    padding-right: 20px;
+    font-size: 30px;
+    color: black;
+}
+.autobiography p:hover {
+background-color: yellow;
+cursor: pointer;
+}
+.footer{
+    background-image: url(https://upload.cc/i1/2020/08/01/1PdIXo.png);
+    text-align: center;
+    margin-top:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+
+}
+/* 作品 */
+.works-page {
+    padding: 10px;
+    width: 1005px;
+}
+.home{
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-color: #484891;
+    display: inline-block;
+    margin-left: 500px;
+    cursor: pointer;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 15px;
+}
+.home:hover{
+    background-color: yellow;
+    color: blue;
+}
