@@ -167,12 +167,6 @@ h2{
 
 
 }
-.works{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
-    
-}
 
 .exp-start{
     margin-left:487px;
@@ -261,6 +255,13 @@ h2{
     top: 0px;
     left:477px;
 }
+.works{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    
+}
+
 
 .works li {
     width: 330px;
@@ -369,3 +370,176 @@ cursor: pointer;
     background-color: yellow;
     color: blue;
 }
+/* I PAD直式大小*/
+@media(max-width: 767px) {
+    .wrap{
+        margin: 0 auto;
+        max-width: 767px;
+        padding: 10px;
+    }
+    .inf{
+        max-width: 760px;
+    }
+    .pic{
+        padding-top:125px;
+        padding-left: 25px;
+        
+    }
+    .pic img{
+        max-width: 75%;
+        border-radius: 50%;
+    }
+    .pic h1{
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 10px;
+        margin-bottom: 10px;
+    }
+    .pic p {
+        font-size: 15px;
+        padding-left:20px;
+        color: #5b5b5b;
+    }
+    
+    
+    .inf ul{
+        color: #ffffff;
+        margin-top: 145px;
+        margin-left: 15px;
+        
+    }
+    .inf .personal1{
+        margin-right: 15px;
+    }
+    .inf ul li{
+        margin-bottom: 10px;
+        font-size: 17px;
+    }
+    h2{
+        margin-bottom:20px;
+        margin-top: 15px;
+        font-size: 30px;
+    }
+
+    .skill {
+        max-width: 720px;
+        margin-bottom: 50px;    
+    }
+    .skill .box1,.box2,.box3,.box4 {
+        padding:15px 3px;
+        max-width: 150px;
+    }
+    .skill .box1 img{
+        max-width: 75%;
+        margin-left: 30px;
+    }
+    .skill .box2 img{
+        max-width: 50%;
+        margin-left: 40px;
+    }
+    .skill .box3 img{
+        max-width: 50%;
+        margin-left: 40px;
+    }
+    .skill .box4 img{
+        margin-top: 25px;
+        max-width: 75%;
+        margin-left: 25px;
+    }
+    .skill h3 {
+        font-size: 20px;
+    }
+    .skill .content li{
+        margin-left: 25px;  
+    }
+    
+.exp-start{
+    margin-left:347px;
+}
+.exp-line{
+    margin-left: 360px;
+    height: 750px;
+}
+
+.exp-right1{
+    left: -10px;
+}
+.exp-right2{
+    top: 600px;
+}
+
+.exp-left{
+    top: 350px; 
+}
+
+
+.exp-block{
+    max-width:250px;
+}
+.exp-block h4{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.exp-block p {
+    margin-bottom: 3px;
+    line-height: 25px;
+}
+.exp-block .company{
+    font-size: 17px;
+}
+.exp-block .job{
+    font-size: 15px;
+}
+
+.exp-end{
+    left:337px;
+}
+
+.works li {
+    max-width:270px;
+    background-color: #ffffff;
+    border-radius: 5%;
+    margin-left: 5px;
+    margin-right:5px;
+    overflow: hidden;
+}
+.works .pic1 img{
+    margin-left:32px;
+    max-width: 75%;
+}
+.works .pic1 {
+    padding-left:40px;
+    overflow: hidden;  
+}
+.works .pic2 img{
+    max-width: 100%;
+}
+
+.works .pic2{
+    height: 100px;
+    padding-top: 40px;
+    padding-left:25px;
+}
+.works .pic3 img{
+    max-width: 100% ;
+    margin-left: 100px;
+}
+
+.works li p {
+    font-size: 17px;
+}
+.autobiography p {
+    margin-top: 25px;
+    padding-right: 15px;
+    font-size: 25px;
+}
+.works-page {
+    padding: 10px;
+    max-width: 750px;
+}
+.home{
+    margin-left: 350px;
+}
+
+}
+
